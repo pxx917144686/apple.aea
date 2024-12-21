@@ -4,6 +4,7 @@
 
 ![Preview](./xx/1.png)
 
+### ipsw 固件，并按照大小排序，然后打开最大的 dmg.aea 文件
 ![Preview](./xx/2.png)
 
 ---
@@ -41,11 +42,6 @@ aea decrypt -i <拖入 .aea 文件到终端> -o <解密后的路径> -key-value 
 ```
 
 
-
-
-
-
-
 ---
 
 ## 关于 制作 `iphone_.ipcc` 文件
@@ -53,6 +49,26 @@ aea decrypt -i <拖入 .aea 文件到终端> -o <解密后的路径> -key-value 
 1. 路径：`system -> library -> carrier bundles -> iphone`  
    此目录中包含众多的 `.IPCC` 文件。
 
+```bash
+**中国电信**：
+
+ChinaTelecom_hk.bundle - 中国电信 香港
+ChinaTelecom_USIM_cn.bundle - 中国电信 大陆
+ChinaTelecom_USIM_mo.bundle - 中国电信 澳门
+
+**中国移动**：
+
+CMCC_CMI.bundle - 中国移动国际
+CMCC_cn.bundle - 中国移动 大陆
+CMCC_hk.bundle - 中国移动 香港
+CMCC_HKBN_hk.bundle - 香港宽频
+
+**中国联通**：
+
+Unicom_hk.bundle - 中国联通 香港
+Unicom_cn.bundle - 中国联通 大陆
+
+```
 2. 找到需要的 `.IPCC` 文件，将对应的 `xxxx.bundle` 放入新建文件夹 **Payload**。
 
 3. 将 **Payload** 文件夹压缩为 ZIP 文件。
