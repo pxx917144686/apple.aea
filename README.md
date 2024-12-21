@@ -1,5 +1,11 @@
 ### 下载链接 [apple.aea](https://github.com/pxx917144686/apple.aea/archive/refs/heads/main.zip)
 
+### apple.aea [iPhone_.ipsw](https://ipsw.dev/product/iPhone)
+
+![Preview](./xx/1.png)
+
+![Preview](./xx/2.png)
+
 ---
 
 ## 终端执行：
