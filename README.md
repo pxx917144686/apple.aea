@@ -1,4 +1,3 @@
-### 下载链接 [apple_dmg.aea-main.zip](https://github.com/pxx917144686/apple.aea/archive/refs/heads/main.zip)
 
 ### apple.aea [iPhone_.ipsw](https://ipsw.dev/product/iPhone)
 
@@ -10,7 +9,7 @@
 ---
 
 ## 终端执行：
-
+### 下载链接 [apple_dmg.aea-main.zip](https://github.com/pxx917144686/apple.aea/archive/refs/heads/main.zip)
 ### 解压 `apple.aea-main.zip`
 
 cd apple.aea-main 文件夹
