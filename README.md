@@ -18,11 +18,38 @@ cd apple.aea-main 文件夹
 cd aeota
 ```
 ## 执行文件夹中的 get_key.py
+
+为了避免python出现异常的问题; ——> 在当前文件夹下创建名为 .env 的虚拟环境：
 ```bash
 python3 -m venv .env
+```
+激活虚拟环境，使后续的 python3 和 pip 命令作用于虚拟环境中
+```bash
 source .env/bin/activate
+```
+执行--> python3 get_key.py，拖入 xxxxxxxxxx.aea 文件为执行路径参数 执行get_key.py脚本文件
+```bash
 python3 get_key.py <拖入 .aea 文件到终端>
 ```
+
+---
+注意: 确保 get_key.py 中需要的依赖包,已安装;
+<details>
+<summary>点击 ——> 查看详细内容</summary>
+注意: 确保 get_key.py 中需要的依赖包,已安装; 
+
+```bash
+pip install -r requirements.txt
+```
+pip install -r requirements.txt  ——> 检查当前 pip 指向的 Python 版本;
+
+👇
+
+```bash
+pip --version
+```
+![Preview](./xx/4.png)
+</details> 
 
 **执行成功 ——> 得到密钥**  
 例如：`'GwXUyztBvIPzXjbfcFkZ9IEBI561oI02b/nkQijCCng='`
