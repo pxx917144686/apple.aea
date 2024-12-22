@@ -16,14 +16,11 @@
 cd apple.aea-main 文件夹
 ```bash
 cd aeota
+```
+## 执行文件夹中的 get_key.py
+```bash
 python3 -m venv .env
 source .env/bin/activate
-```
-
-## 执行aea文件夹中的 get_key.py
-
-```bash
-cd aea
 python3 get_key.py <拖入 .aea 文件到终端>
 ```
 
@@ -37,6 +34,7 @@ python3 get_key.py <拖入 .aea 文件到终端>
 ### 终端执行
 
 ```bash
+cd aea
 aea decrypt -i <拖入 .aea 文件到终端> -o <解密后的路径> -key-value 'base64:GwXUyztBvIPzXjbfcFkZ9IEBI561oI02b/nkQijCCng='
 ```
 
